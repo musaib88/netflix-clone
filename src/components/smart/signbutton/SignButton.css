@@ -1,0 +1,26 @@
+.signin-button{
+ 
+ display: block;
+ background-color:#E50914;
+ padding: 6px 16px;
+ margin:2rem;
+ 
+
+ 
+ /* cursor: pointer;   */
+ /* border-radius:0.25rem; */
+ user-select: none;
+    border: 0;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    fill: currentColor;
+    position: relative;
+ 
+
+ 
+}
+a{
+   text-decoration: none; 
+   color: aliceblue;
+   font-weight:600;
+}

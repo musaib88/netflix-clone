@@ -1,0 +1,20 @@
+
+@font-face {
+  font-family: netflix-sans-light;
+  src: url(../public/fonts/NetflixSansLight.otf);
+}
+@font-face {
+  font-family: netflix-sans-medium;
+  src: url(../public/fonts/NetflixSansMedium.otf);
+}
+body {
+  margin: 0;
+  font-family: netflix-sans-light,netflix-sans-medium;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

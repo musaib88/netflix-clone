@@ -1,0 +1,158 @@
+#grid-container{
+ display: grid;
+ grid-template-columns: repeat(2, 1fr);
+ grid-gap: 0.9rem;
+ grid-template-rows:repeat(2,30rem);
+ 
+ 
+}
+.grid-item{
+  /* border: solid 1px yellow; */
+  background: radial-gradient(99.93% 134.44% at 17.93% 0%, #09143C 0%, #101338 57.21%, #400E20 99.57%);
+  border-radius: 8px;
+  
+}
+.main-container{
+  
+  margin:3.3rem;
+  
+}
+.img{
+  /* border: solid 1px brown; */
+  width:440px;
+  height:302px;
+  margin: auto;
+  margin-top:5%;
+}
+img{
+  position: relative;
+  width: 100%;
+}
+.paragraph{
+  position: relative;
+  /* border:solid 1px red; */
+  text-align:left;
+  margin: auto;
+  width: 70%;
+  color: aliceblue;
+  bottom: 3%;
+  
+  
+
+}
+.p1{
+  font-size:x-large;
+  font-weight:600;
+  
+  
+}
+.p2{
+  font-size: medium;
+  font-weight: 200;
+}
+#collapse-layout{
+  width: 90%;
+  height:auto;
+  /* border: solid 2px green; */
+  margin-left: 6%;
+  margin-top:3rem;
+  
+}
+#collapse-layout h2{
+text-align: left;
+color: aliceblue;
+font-size: 40px;
+font-weight: 700;
+padding-left:9px;
+}
+ .collapse-container{
+  position: relative;
+  /* border: solid 2px yellow; */
+  width: 100%;
+  height:auto;
+  
+  
+
+}
+.collapse-label {
+  display:flex;
+  align-items: center;
+  justify-content:space-between;
+  height: 1.5rem;
+  padding: 2rem;
+  background-color: rgb(19,33,68);
+  width:90%;
+  cursor: pointer;
+  margin: 5px;
+  margin-bottom:0.5rem;
+  
+}
+.collapse-label h3{
+  /* display:flex;
+  align-items: center;
+  justify-content:space-between; */
+  color: aliceblue;
+  font-size: 25px;
+  font-weight:400;
+}
+.NoTransform{
+  color: aliceblue;
+  font-size: 70px; 
+  font-weight: 100;
+  font-style: normal;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+
+.Transform {
+
+  color: aliceblue;
+  font-size: 70px; 
+  font-weight: 100;
+  font-style: normal;
+  font-family: 'Times New Roman', Times, serif;
+  transform: rotate(45deg);
+}
+
+
+
+/* .collapse-label::c{
+  content: 'x';
+  position: absolute;
+  left: 90%;
+  font-size: 1rem;
+  transform: translateY(-50%);
+} */
+.NotVisible
+{  position: relative;
+  display: none;
+  overflow:hidden;
+  transition: 1s;
+  
+ 
+}
+.Visible
+{  position: relative;
+  padding: 2rem;
+  background-color:rgb(19,33,68);
+  width: 90%;
+  transition: 1s;
+  margin: 5px;
+  font-size: 25px;
+  color: aliceblue;
+  margin-bottom: 0.5rem;
+}
+
+/* .plus{
+   color: aliceblue;
+   content: '+';
+  position: absolute;
+  left: 90%;
+  font-size: 1rem;
+  font-size: 65px;
+  
+  
+  
+} */
+
+
