@@ -159,9 +159,9 @@ export default function HomeContent() {
             </p>
           </div>
         </div>
-           <div id="signUp-accord">
-          <  SignUp/>
-          </div>
+             <div id="signUp-accord">
+            <  SignUp/>
+              </div>
       </div>
     </div>
   );

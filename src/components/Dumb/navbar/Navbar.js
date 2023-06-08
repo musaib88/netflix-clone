@@ -9,7 +9,7 @@ export default function Navbar() {
       <Logo/>
       </div>
       <div>
-      <SignButton/>
+      <SignButton buttonColor="white" buttonBgColor="#E50914"> </SignButton>
       </div>
 
     </div>

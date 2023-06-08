@@ -142,17 +142,12 @@ padding-left:9px;
   color: aliceblue;
   margin-bottom: 0.5rem;
 }
-
-/* .plus{
-   color: aliceblue;
-   content: '+';
-  position: absolute;
-  left: 90%;
-  font-size: 1rem;
-  font-size: 65px;
-  
-  
-  
-} */
+.Visible::after{
+  transition: ease;
+}
+#signUp-accord{
+  /* border: solid 1px green; */
+  margin-left: 0.3rem;
+}
 
 

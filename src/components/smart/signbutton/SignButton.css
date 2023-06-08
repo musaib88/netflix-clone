@@ -1,7 +1,8 @@
 .signin-button{
  
  display: block;
- background-color:#E50914;
+ /* background-color:#E50914; */
+ 
  padding: 6px 16px;
  margin:2rem;
  
@@ -19,8 +20,11 @@
 
  
 }
-a{
+#right-signin a{
    text-decoration: none; 
    color: aliceblue;
+   font-size: 18px;
+   
+   /* color: aliceblue; */
    font-weight:600;
 }

@@ -1,7 +1,9 @@
 .netflix-logo{
+    /* border: solid 1px red; */
     width: 9.25rem;
     height: 2.5rem;
-    margin:2rem;
+    margin-left:2rem;
+    
     /* color: rgba(229, 9, 20, 1); */
     /* fill: currentColor; */
     display: block;
