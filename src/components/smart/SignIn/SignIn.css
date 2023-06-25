@@ -235,4 +235,14 @@ font-size: 13px;
     visibility: hidden;
     overflow: hidden; 
 } */
+#need-help a {
+  text-decoration: none; 
+    color:rgb(115,115,115);
+    
+}
+#need-help a:hover{
+    text-decoration: underline; 
+      
+  }
+
  

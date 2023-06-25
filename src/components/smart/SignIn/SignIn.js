@@ -9,12 +9,13 @@ export default function SignIn() {
   const[passwordVisible,setPasswordVisble]=useState(false);
   const [passwordToggle,setPasswordToggle]=useState(false);
    const handlePasswordToggleFocus=()=>{ 
+    
     setPasswordToggle(true);
       
   }
   const handlePasswordToggleBlur=()=>{
-    setPasswordToggle(false)
-    console.log(passwordToggle);  
+    setPasswordToggle(false);
+     
   
   }
     
@@ -54,7 +55,6 @@ export default function SignIn() {
     
     const handleShow=()=>{
        setPasswordVisble(!passwordVisible);
-       console.log("ugiggui")
     }
    
   return (
@@ -89,16 +89,17 @@ export default function SignIn() {
                  onChange={handlePasswordChange}
                  value={password}
                  onFocus={handlePasswordToggleFocus}
-                 onBlur={handlePasswordToggleBlur}
+                 
                 id="password-signin-p" 
               />
               <div className={labelPassword?"label-postion-sp-after":"label-postion-sp"} >
               <label htmlFor="password-signin-p">Password</label>
               </div>
               
+                 
              <div className={passwordToggle?"show":"show-hide"}>
                  
-              <label htmlFor="password-signin-p" onClick={handleShow}>{passwordVisible?"HIDE":"SHOW"}</label>
+              <label htmlFor="password-signin-p" onClick={handleShow } >{passwordVisible?"HIDE":"SHOW"}</label>
               </div>
              
              
@@ -114,9 +115,9 @@ export default function SignIn() {
                  </form>
               
               </div>
-              <div>
+              <div id="need-help">
                 
-                <span>Need help?</span>
+                 <a href="https://www.netflix.com/in/LoginHelp"><span>Need help?</span></a>
               </div>
             </div>
           </form>
