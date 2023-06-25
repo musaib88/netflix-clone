@@ -35,7 +35,7 @@ export default function BrowsePage() {
           </ul>
         </div>
       </div>
-      <div id="content-entertaiment"></div>
+      <div id="content-entevvvvcc rtaiment"></div>
       <div id="footer-browser">
         <div id="social-plat">
             <ul><li> <img  id="facebool-size-brow" src={facebookLogo} alt="Facebook" /></li>
