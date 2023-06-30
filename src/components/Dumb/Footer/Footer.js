@@ -26,7 +26,7 @@ export default function Footer() {
           </div>
           <div className="footer-anchors">
             <ul>
-           <li> <a href="">Account</a></li>
+           <li> <a href="/">Account</a></li>
             <li><a href="https://devices.netflix.com/en/">Ways to Watch</a></li>
             <li><a href="https://help.netflix.com/legal/corpinfo">Corporate Information</a></li>
             <li><a href="https://www.netflix.com/in/browse/genre/839338">Only on Netflix</a></li>

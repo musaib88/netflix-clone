@@ -27,7 +27,7 @@ export default function Subscribe() {
             <span >  No ads and no extra fees. Ever.</span>
             </div>
             </div>
-            <div id='subscribe-button'><a href=""><  button>Subscribe</button></a></div>
+            <div id='subscribe-button'><a href="/"><  button>Subscribe</button></a></div>
 
         </div>
        </div>

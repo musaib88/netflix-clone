@@ -1,75 +1,94 @@
-import React from "react";
+import React, {  useEffect, useState } from "react";
 import logo from "../../img/logo.png";
 import "./Browse.css";
 import facebookLogo from "../../img/Facbook.svg";
 import intagramLogo from "../../img/Instagram.svg";
 import twitterLogo from "../../img/Twitter.svg";
 import youtubeLogo from "../../img/Youtube.svg";
-
+import searchbar from "../../img/Search.svg";
+import notifybell from "../../img/NotifyBell.svg";
+import genralprofile from "../../img/Profiletype.png";
+import HomeBrowse from "../../components/smart/HomeBrowse/HomeBrowse";
 
 export default function BrowsePage() {
+  const [isScrolled, setIsScrolled]=useState(false);
+  const handleScroll = ()=>{
+    window.scrollY >= 40 ? setIsScrolled(true): setIsScrolled(false);
+  }
+  useEffect( () => {
+    window.addEventListener("scroll",handleScroll)
+    console.log(isScrolled);
+    return () =>{
+        window.removeEventListener("scroll",handleScroll)
+    }
+  },[window.scrollY])
+  
   return (
     <div id="browse-page-layout">
-      <div id="browse-navbar">
+      <div id="browse-navbar" className={isScrolled?"nav_color":""}>
         <div id="left-side-nav">
           <div id="logo-browse">
-            <img id="logo-id-browse" src={logo} alt="NETFLIX" />
+            
+             <  img src={logo} id="logo-browse-com" alt="" />
           </div>
           <div id="menu-left-browse">
             <ul>
-              <li>Home</li>
-              <li>TV Shows</li>
-              <li>Movies</li>
-              <li>New & Popular</li>
-              <li>My List</li>
-              <li>Browse By Languages</li>
+              <li><a href="/">Home</a></li>
+              <li><a href="/">TV Shows</a></li>
+              <li><a href="/">Movies</a></li>
+              <li><a href="/">New & Popular</a></li>
+              <li><a href="/">My List</a></li>
+              <li><a href="/">Browse By Languages</a></li>
             </ul>
           </div>
         </div>
         <div id="right-nav-browse">
           <ul>
-            <li>freg</li>
-            <li>greg</li>
-            <li>rrg</li>
-            <li>gregr</li>
+            <li><a href="/"><img id="searchbar-brow" src={searchbar} alt="" /></a></li>
+            <li><a href="/">Children</a></li>
+            <li><a href="/"><img id="bell-brow" src={notifybell} alt="" /></a></li>
+            <li><a href="/"><img id="profile-type-brow" src={genralprofile} alt="" /></a></li>
           </ul>
         </div>
       </div>
-      <div id="content-entevvvvcc rtaiment"></div>
+
+      <div id="content-entertaiment">
+        <HomeBrowse/>    
+      </div>
       <div id="footer-browser">
         <div id="social-plat">
-            <ul><li> <img  id="facebool-size-brow" src={facebookLogo} alt="Facebook" /></li>
-            <li> <img  id="insta-size-brow" src={intagramLogo} alt="Instagram" /></li>
-            <li><img  id="twitter-size-brow" src={twitterLogo} alt="twitter" /></li>
-            <li><img  id="Youtube-size-brow" src={youtubeLogo} alt="Youtube" /></li></ul>
+            <ul><li><a href="/"> <img  id="facebool-size-brow" src={facebookLogo} alt="Facebook" /></a></li>
+            <li><a href="/"> <img  id="insta-size-brow" src={intagramLogo} alt="Instagram" /></a></li>
+            <li><a href="/"><img  id="twitter-size-brow" src={twitterLogo} alt="twitter" /></a></li>
+            <li><a href="/"><img  id="Youtube-size-brow" src={youtubeLogo} alt="Youtube" /></a></li></ul>
         </div>
         <div id="footer-menu-layout">
           <div className="menu-list">
             <ul>
-              <li>Audio Description</li>
-              <li>Investor Relations</li>
-              <li>Legal Notices</li>
+              <li><a href="/">Audio Description</a></li>
+              <li><a href="/">Investor Relations</a></li>
+              <li><a href="/">Legal Notices</a></li>
             </ul>
           </div>
           <div className="menu-list">
             <ul>
-              <li>Help Centre</li>
-              <li>Jobs</li>
-              <li>Cookie Preferences</li>
+              <li><a href="/">Help Centre</a></li>
+              <li><a href="/">Jobs</a></li>
+              <li><a href="/">Cookie Preferences</a></li>
             </ul>
           </div>
           <div className="menu-list">
             <ul>
-              <li>Gift Cards</li>
-              <li>Terms of Use</li>
-              <li>Corporate Information</li>
+              <li><a href="/">Gift Cards</a></li>
+              <li><a href="/">Terms of Use</a></li>
+              <li><a href="/">Corporate Information</a></li>
             </ul>
           </div>
           <div className="menu-list">
             <ul>
-              <li>Media Centre</li>
-              <li>Privacy</li>
-              <li>Contact Us</li>
+              <li><a href="/">Media Centre</a></li>
+              <li><a href="/">Privacy</a></li>
+              <li><a href="/">Contact Us</a></li>
             </ul>
           </div>
         </div>

@@ -13,11 +13,9 @@ export default function SignIn() {
     setPasswordToggle(true);
       
   }
-  const handlePasswordToggleBlur=()=>{
-    setPasswordToggle(false);
-     
-  
-  }
+  // const handlePasswordToggleBlur=()=>{
+  //   setPasswordToggle(false);
+  // }
     
     
     const handleEmailChange=(event)=>{
@@ -133,7 +131,7 @@ export default function SignIn() {
               
               <span>
                 This page is protected by Google reCAPTCHA to ensure you're not
-                a bot. <a href="">Learn more.</a>
+                a bot. <a href="/">Learn more.</a>
               </span>
             </div>
           </div>
