@@ -5,7 +5,6 @@
 .nav_color {
   background-color: black;
   transition: 0.5s ease-in-out;
- 
 }
 a {
   text-decoration: none;
@@ -15,11 +14,10 @@ a {
   position:fixed;
   height: 4rem;
   width: 100%;
+  z-index:1;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  z-index: 1;
-  /* color: black ; */
 }
 #left-side-nav {
   display: flex;
@@ -55,11 +53,8 @@ a {
   list-style: none;
 }
 #content-entertaiment {
-  
- 
   height:auto;
-  width: 100%;
-  border: solid 1px red;
+  /* border: solid 1px red; */
 }
 #footer-menu-layout {
   /* border: solid 1px red; */
