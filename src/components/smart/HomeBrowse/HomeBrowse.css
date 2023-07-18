@@ -1,14 +1,22 @@
-#banner-homebrowse{
-    /* border: solid 1px green; */
+#banner-homebrowse {
+  /* border: solid 1px green; */
+}
+#banner-details-movie {
+  position: absolute;
+  color: wheat;
 }
 
-#image-banner-layout-brow{
+#image-banner-layout-brow {
   width: 100%;
-  height: 48rem;}
-.data-arousal-movies-row{
-  position: relative;
-  overflow: hidden;
-  border: solid 1px rgb(128, 0, 0);
-  width: 100%;
-  margin-top:-7%;
+  height: 48rem;
 }
+.data-arousal-movies-row {
+  position: relative;
+  overflow: visible;
+  /* border: solid 1px rgb(128, 0, 0); */
+  width: 100%;
+  margin-top: -7%;
+}
+/* #top-row-movies{
+  margin-top:2rem;
+} */
