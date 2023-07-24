@@ -8,15 +8,9 @@ export default function HomeBrowse() {
     <div>
       <div id="banner-homebrowse">
         <img id="image-banner-layout-brow" src={HomeBanner} alt="" />
-        <div id="banner-details-movie">
-          {" "}
-          <p></p>
-          <div>
-            {" "}
-            <div> Play </div> <div> MoreInfo</div>{" "}
-          </div>
-        </div>
+        <div id="banner-movie-brow-details"></div>
       </div>
+
       <div className="data-arousal-movies-row">
         <MovieData url="/trending/all/day?" rowTitle="Trending"></MovieData>
 

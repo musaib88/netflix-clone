@@ -77,9 +77,9 @@ export default function MovieData(props) {
       setMovies(movieList);
     };
     fetchData();
-  }, []); // Removed fetchMovies from the dependency array
+  }, []);
 
-  console.log(movies);
+  // console.log(movies);
 
   return (
     <div
@@ -111,7 +111,7 @@ export default function MovieData(props) {
             />
             <div
               id={
-                showDetails && movieId == movie.id
+                showDetails && movieId === movie.id
                   ? "details-play-movie-visible"
                   : "details-play-movie-hide"
               }
