@@ -1,0 +1,136 @@
+#browse-page-layout {
+  background-color: rgb(20, 20, 20);
+  color: azure;
+}
+.nav_color {
+  background-color: black;
+  transition: 0.5s ease-in-out;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+#browse-navbar {
+  position:fixed;
+  height: 4rem;
+  width: 100%;
+  z-index:1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#left-side-nav {
+  display: flex;
+}
+#menu-left-browse ul {
+  display: flex;
+  gap: 0.7rem;
+  list-style: none;
+}
+#logo-browse {
+  /* border: solid 1px green; */
+  display: flex;
+  height: 2.3rem;
+  width: 7rem;
+  margin-top: 0.5rem;
+  margin-left: 1.5rem;
+}
+#logo-browse-com {
+  width:auto;
+  height:auto;
+  /* border: solid 1px red; */
+}
+#right-nav-browse {
+  /* border: solid 1px red; */
+  margin-right: 4%;
+}
+#right-nav-browse ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 1rem;
+  list-style: none;
+}
+#content-entertaiment {
+  height:auto;
+  /* border: solid 1px red; */
+}
+#footer-menu-layout {
+  /* border: solid 1px red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  gap: 2.5rem;
+  margin-left: 8%;
+}
+.menu-list {
+  /* border: solid 1px yellow; */
+  color: #808080;
+  font-size: 13px;
+}
+#footer-menu-layout ul {
+  list-style: none;
+}
+#footer-menu-layout ul li {
+  margin: 1rem;
+}
+#bottom-bro-fot-span {
+  margin-left: 17.5%;
+  color: #808080;
+  font-size: 13px;
+}
+#social-plat ul {
+  /* border: solid 1px red; */
+  width: 50%;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+  margin-left: 15%;
+}
+
+#facebool-size-brow {
+  height: 23px;
+  width: 30px;
+}
+#insta-size-brow {
+  height: 28px;
+  width: 30px;
+}
+#twitter-size-brow {
+  height: 22px;
+  width: 30px;
+}
+#Youtube-size-brow {
+  height: 35px;
+  width: 35px;
+}
+#service-code {
+  color: #808080;
+  font-size: 13px;
+  border: 1px solid #808080;
+  width: 5rem;
+  padding: 4px;
+  margin-top: 0.5rem;
+  margin-bottom: 0.3rem;
+}
+#copyright-brow {
+  font-size: 11px;
+}
+#searchbar-brow {
+  height: 25px;
+  width: 30px;
+  margin: auto;
+}
+#bell-brow {
+  height: 18px;
+  width: 20px;
+}
+#profile-type-brow {
+  height: 35px;
+  width: 35px;
+  border-radius: 5px;
+}

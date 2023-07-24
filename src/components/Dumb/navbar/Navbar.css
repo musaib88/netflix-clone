@@ -1,0 +1,9 @@
+.Navbar{
+    display:flex;
+    /* border: solid 1px green; */
+    justify-content: space-between;
+    padding: 1rem;
+    height: 3.375rem;
+    align-items: center;
+    
+}

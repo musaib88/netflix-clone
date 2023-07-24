@@ -1,11 +1,9 @@
 #banner-homebrowse {
-  border: solid 4px green;
-  width: 100%;
-  height: 1000px;
+  /* border: solid 1px green; */
 }
-#banner-movie-brow-details {
+#banner-details-movie {
   position: absolute;
-  top: 50%;
+  color: wheat;
 }
 
 #image-banner-layout-brow {
