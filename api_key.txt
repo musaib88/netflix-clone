@@ -1,4 +1,41 @@
-API Key
 b872e787879a01dd3397d0d3ad567cf9
-API Read Access Token
-eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJiODcyZTc4Nzg3OWEwMWRkMzM5N2QwZDNhZDU2N2NmOSIsInN1YiI6IjY0OWJlYjZkOTYzODY0MDBjNjcxODY4MSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.dI_3RqEW4H093ZpKVyCrmH94UO9JwJrP0GrckaVLu78
+
+const rowData = [
+    {
+        genre : 'Trending',
+        url : '/trending/all/day'
+    },
+    {
+        genre : 'Originals',
+        url : '/discover/movie?sort_by=popularity.desc'
+    },
+    {
+        genre : 'Top Rated',
+        url : '/movie/top_rated'
+    },
+    {
+        genre : 'TV shows',
+        url : '/discover/tv'
+    },
+    {
+        genre : 'Action',
+        url : '/discover/movie?with_genres=28'
+    },
+    {
+        genre : 'Comedy',
+        url : '/discover/movie?with_genres=35'
+    },
+    {
+        genre : 'Horror',
+        url : '/discover/movie?with_genres=27'
+    },
+    {
+        genre : 'Romance',
+        url : '/discover/movie?with_genres=10749'
+    },
+    {
+        genre : 'Documentaries',
+        url : '/discover/movie?with_genres=99'
+    }
+]
+export default rowData;
