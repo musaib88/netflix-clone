@@ -20,3 +20,83 @@
 /* #top-row-movies{
   margin-top:2rem;
 } */
+
+#movie-bannaer-wedsday{
+  position: absolute;
+  /* border:solid 1px red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  bottom: 30%;
+  margin-left: 40px;
+}
+#banner-pic-weds{
+  width: 350px;
+  height: 350px;
+  object-fit: contain;
+  /* border:solid 1px red; */
+  margin-bottom: -30px;
+
+}
+#top-10-title{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  /* border:solid 1px red; */
+  
+
+}
+#top-10-title>img{
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+#top-10-title>span{
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#details-para-weds{
+  display: flex;
+  flex-direction: column;
+  justify-self: start;
+ width: 500px;
+
+}
+#details-para-weds>p{
+  font-size: 18px;
+  font-weight: 400;
+  font-family:'Times New Roman', Times, serif
+  
+}
+.button-top-10{
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 20px;
+  text-align: center;
+
+}
+.button-top-10>i{
+  font-size: 23px;
+  margin-right:7px;
+
+  
+}
+.button-top-10>span{
+
+}
+#button-top-play{
+  background-color: whitesmoke;
+  border-radius: 10px;
+  border: none;
+
+
+}
+#button-top-info{
+  background-color:rgb(141, 134, 134);
+  border: none;
+  color: whitesmoke;
+  border-radius: 10px;
+
+}
+
