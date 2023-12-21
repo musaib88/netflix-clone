@@ -1,5 +1,7 @@
 
-![Screens![Screenshot from 2023-12-16 18-44-21](https://github.com/musaib88/netflix-clone/assets/119590812/18117fb8-7f35-4894-bd59-f6264f52abe5)
+![Screens![Screenshot from 2023-12-16 18-44-21](https://github.![Screenshot from 2023-12-16 18-41-19](https://github.com/musaib88/netflix-clone/assets/119590812/66d32afd-eec2-4ee4-9531-868dcaf7ce39)
+com/musaib88/netflix-clone/assets/1![Screenshot from 2023-12-16 18-45-12](https://github.com/musaib88/netflix-clone/assets/119590812/6c1d6456-a84d-43c2-a45d-70222b230b6c)
+19590812/18117fb8-7f35-4894-bd59-f6264f52abe5)
 ![Screenshot from 2023-12-16 18-45-41](https://github.com/musaib88/netflix-clone/assets/119590812/45b07bbf-3be7-4baf-b1fe-8851d770f88b)
 hot from 2023-12-16 18-45-12](![Screenshot![Screenshot from 2023-12-16 18-41-19](https://github.com/musaib88/netflix-clone/assets/119590812/d3da9e8e-3209-488b-88f7-38bba420d30b)
  from 2023-12-16 18-42-17](https://github.com/musaib88/netflix-clone/assets/119590812/a5e64875-ddd7-47f8-8735-4f4bd9ade275)
