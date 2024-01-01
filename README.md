@@ -7,6 +7,7 @@ This project is a front-end clone of the Netflix interface, emphasizing the visu
 The Netflix clone front-end is designed to replicate the visual appearance and layout of the Netflix platform, showcasing a sleek and responsive user interface.
 Here is the [link](https://netflix-clone-musaib88.vercel.app/) (try using in incognitive mode if it does work in regular web tab) for the live page.
 
+
 ## Features
 
 - **Homepage Redesign:** A visually appealing homepage layout mimicking Netflix's design.
@@ -25,7 +26,7 @@ Here is the [link](https://netflix-clone-musaib88.vercel.app/) (try using in inc
      git clone https://github.com/musaib88/netflix-clone.git
   2. **Install Dependencies:**
       ```bash
-      cd netflix-frontend
+      cd netflix-clone
       npm install
   3. **Run the Application:**
       ```bash
